@@ -265,11 +265,11 @@ void play_animation() {
     for(int i=0; i<FRAME_NUM; i++) {
         system("clear");
         print_frame(i);
-        if(i<=5)
+        if(i<=5)			// Bear frame group
             usleep(TO_uSEC(BEAR_TIME));
-        else if(i<=13)
+        else if(i<=13) 		// Bubble frame group
             usleep(TO_uSEC(BUBBLE_TIME));
-        else
+        else				// Text frame group
             usleep(TO_uSEC(TEXT_TIME));
     }
 }

@@ -11,10 +11,7 @@
 #define LIGHT_PINK          "\033[38;5;217m" 
 #define INTENSE_PINK        "\033[38;5;198m" 
 
-#define FRAME_NUM 20
-#define FRAME_LINES 9
-
-// Different elements colors
+// Parts' colors
 #define BEAR_COLOR INTENSE_BROWN
 #define BEAR_EYES_COLOR BLUE
 #define BEAR_SKIN_COLOR MEDIUM_SKIN
@@ -22,13 +19,16 @@
 #define TEXT_COLOR1 LIGHT_PINK
 #define TEXT_COLOR2 INTENSE_PINK
 
+// Do not change
+#define FRAME_NUM 20
+#define FRAME_LINES 9
 #define TEXT_STRING "i love you!"
 
 #define TO_uSEC(s) s * 1000000
+// Frame groups sleep time
 #define BEAR_TIME 0.5
 #define BUBBLE_TIME 0.03
 #define TEXT_TIME 0.5
-
 
 // Macros for monstrocity
 #define BEAR(s) BEAR_COLOR s ANSI_COLOR_RESET
