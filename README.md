@@ -64,3 +64,5 @@ else            // Text frame group
     usleep(TO_uSEC(TEXT_TIME));
 ```
 The three values can be changed so that the whole animation slows down or speeds up.
+
+# Dedicated to Anastasia <3
