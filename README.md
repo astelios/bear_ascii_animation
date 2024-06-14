@@ -1,6 +1,10 @@
 # Bear Loves You
 ![bear peeking from under the table saying "i love you"](.md_img/bear.png "Bear")
 
+## Art Credit
+**Original author**: Hayley Jane Wakenshaw \
+**Link**: [https://www.asciiart.eu/toys/teddy-bears](https://www.asciiart.eu/toys/teddy-bears)
+
 ## Build
 ```bash
 make
